@@ -206,3 +206,32 @@ img.partner-logo {
   display: flex;
   column-gap: 20px;
 }
+
+/* Section Tools */
+
+section.social-media-tools {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.tool-cards {
+  width: 33%;
+  padding: 16px;
+  position: relative;
+  display: flex;
+  margin: 10px 10px 25px;
+  background-color: rgb(245, 245, 245);
+  flex-direction: column;
+  padding: 30px;
+}
