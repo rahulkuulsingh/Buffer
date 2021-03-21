@@ -170,3 +170,39 @@ span.items:before {
 .fast-facts span:not(:last-of-type) {
   margin-right: 16px;
 }
+
+/* Section Parters */
+section.trusted-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url(./assets/jagged-border.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3.section-title {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 0px 0px 1.25rem;
+}
+
+img.partner-logo {
+  height: 46px;
+  width: 76px;
+  width: 80px;
+  max-width: none;
+  padding: 25px;
+  background: #c4c4c4;
+}
+
+.partner-logo-section {
+  display: flex;
+  column-gap: 20px;
+}
