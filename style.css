@@ -143,11 +143,28 @@ main {
 
 .hero-wrapper a.btn.btn-primary {
   padding: 32px 48px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 20px 50px 5px;
 }
 
 .fast-facts {
+  width: 100%;
+  display: flex;
   padding-top: 2.375rem;
   font-size: 0.875rem;
+  justify-content: center;
+}
+
+.fast-facts .items {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+}
+
+span.items:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(./assets/checkmark.svg);
 }
 
 .fast-facts span:not(:last-of-type) {
