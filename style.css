@@ -6,6 +6,13 @@ body {
   padding: 0;
 }
 
+/* Global element */
+
+section {
+  padding: 70px 0px;
+  display: flex;
+}
+
 header {
   position: absolute;
   z-index: 999;
@@ -259,14 +266,10 @@ section.testimonials {
 
 .user-testimonials {
   padding-top: 70px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
   max-width: 1130px;
   box-sizing: border-box;
   display: flex;
-  flex: 0 1 auto;
-  flex-flow: row wrap;
-  margin-right: -0.5rem;
-  margin-left: -0.5rem;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -277,4 +280,37 @@ img.user-avatar,
   flex-basis: 50%;
   max-width: 50%;
   display: block;
+  color: white;
+}
+
+h2.content {
+  font-size: 1.875rem;
+  line-height: 2.75rem;
+  margin: 0px 0px 1.875rem;
+  position: relative;
+}
+
+h2.content:before {
+  content: "";
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0px;
+  width: 50px;
+  height: 40px;
+  top: -70px;
+  background-image: url(./assets/quotes-white.svg);
+}
+
+/* Features Section */
+
+.features-wrapper {
+  display: flex;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.feature-media {
+  height: 400px;
+  width: 400px;
+  background: blue;
 }
