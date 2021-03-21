@@ -105,3 +105,51 @@ nav.primary-navigation {
 .action-button-group a:not(:last-of-type) {
   margin-right: 10px;
 }
+
+/* Main section */
+
+main {
+  min-height: 700px;
+  overflow: hidden;
+}
+
+.hero-section {
+  padding: 200px 0px 60px;
+}
+
+.hero-wrapper {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.primary-heading {
+  font-size: calc(1.375rem + (1vw - 3.75px) * 1.6901);
+  line-height: calc(2rem + (1vw - 3.75px) * 2.2535);
+  max-width: 600px;
+  text-align: center;
+  margin: 0px 0px 1.875rem;
+}
+
+.sub-heading {
+  margin-bottom: 2.375rem;
+  line-height: 1.8;
+  max-width: 80%;
+  margin-top: 0px;
+}
+
+.hero-wrapper a.btn.btn-primary {
+  padding: 32px 48px;
+}
+
+.fast-facts {
+  padding-top: 2.375rem;
+  font-size: 0.875rem;
+}
+
+.fast-facts span:not(:last-of-type) {
+  margin-right: 16px;
+}
