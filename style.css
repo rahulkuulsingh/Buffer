@@ -246,3 +246,35 @@ img.tool-app-icon {
   position: relative;
   top: -50px;
 }
+
+/* Testimonials section */
+section.testimonials {
+  display: flex;
+  width: 100%;
+  position: relative;
+  background-color: rgb(44, 75, 255);
+  padding-bottom: 70px;
+  padding-top: 0px !important;
+}
+
+.user-testimonials {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 1130px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+img.user-avatar,
+.testimonial {
+  flex-basis: 50%;
+  max-width: 50%;
+  display: block;
+}
